@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-weather-dev-151436-authRole",
+            "UnauthRoleArn": "arn:aws:iam::215267854791:role/amplify-weather-dev-151436-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::215267854791:role/amplify-weather-dev-151436-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-weather-dev-151436-deployment",
+            "UnauthRoleName": "amplify-weather-dev-151436-unauthRole",
+            "StackName": "amplify-weather-dev-151436",
+            "StackId": "arn:aws:cloudformation:us-east-1:215267854791:stack/amplify-weather-dev-151436/e1fe1580-ea2b-11ea-82d2-0e9061196303",
+            "AmplifyAppId": "d2e3h2a2mtun6o"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2e3h2a2mtun6o",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}

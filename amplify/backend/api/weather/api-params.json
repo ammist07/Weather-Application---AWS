@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/get-weather",
+            "lambdaFunction": "getWeather",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "weather",
+    "apiName": "weather",
+    "functionArns": [
+        {
+            "lambdaFunction": "getWeather"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-weather-dev-151436-authRole",
+        "unAuthRoleName": "amplify-weather-dev-151436-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "getWeather",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
